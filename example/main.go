@@ -1,15 +1,3 @@
-# flesch-go
-Go-based implementation of the Flesch reading ease readability formula module.
-
-### Installation
-
-Run the following command under your project:
-
-> go get -u github.com/NICEXAI/flesch-go@latest
-
-### Example
-
-```go
 package main
 
 import (
@@ -31,8 +19,4 @@ func main() {
 
 	// get word count
 	fmt.Println(document.WordCount())
-	
-	// ...
 }
-
-```
