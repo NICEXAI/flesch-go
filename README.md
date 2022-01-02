@@ -1,5 +1,5 @@
 # flesch-go
-Go-based implementation of the Flesch reading ease readability formula module.
+Go-based implementation of the Flesch reading ease readability formula module. Thanks for the [flesch-index](https://github.com/PaluMacil/flesch-index) project.
 
 ### Installation
 
