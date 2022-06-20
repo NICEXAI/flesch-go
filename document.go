@@ -51,6 +51,10 @@ func (d Document) Syllables() int {
 	return count
 }
 
+func (d Document) SentencesCount() int {
+	return len(d.Sentences)
+}
+
 func (d Document) Kincaid() float32 {
 	score := .39*d.avgWordPerSen() + 11.8*d.avgSylPerWord() - 15.59
 
